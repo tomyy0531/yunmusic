@@ -15,4 +15,3 @@ song_id_list_req = req.find_element_by_xpath('//div[@class="srchsongst"]/div/div
 song_id = song_id_list_req.get_attribute('href').split('=')[1]
 urlretrieve(outer_url+song_id+'.mp3', 'songs/{}.mp3'.format(song_name))
 # print(song_id)
-EBL=o5CH
